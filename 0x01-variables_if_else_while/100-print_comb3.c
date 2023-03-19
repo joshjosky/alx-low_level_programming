@@ -8,7 +8,7 @@ int main(void)
 {
 int i, var1, var2;
 i = 0;
-while (s <= 90)
+while (i <= 90)
 {
 var1 = i / 10;
 var2 = i % 10;
