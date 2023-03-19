@@ -7,11 +7,9 @@
 int main(void)
 {
 char x;
-x = 'z';
-while (x >= 'z')
+for (x = 'z'; x >= 'a'; s--)
 {
 putchar(x);
-x++;
 }
 putchar('\n');
 return (0);
