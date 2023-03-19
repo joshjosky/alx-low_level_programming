@@ -8,9 +8,9 @@ int main(void)
 {
 char x;
 x = 'a';
-while (x <= 'z');
+while (x <= 'z')
 {
-if (x == 'e');
+if (x == 'e')
 {
 x++;
 continue;
