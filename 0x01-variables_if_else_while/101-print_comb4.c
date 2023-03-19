@@ -6,22 +6,22 @@
  */
 int main(void)
 {
-int i, var1, var2, var3, var4;
+int w, x, y, z, i;
 i = 0;
 while (i <= 999)
 {
-var1 = i / 100;
-var2 = i / 10;
-var3 = i % 10;
-var4 = var2 % 10;
-if ((var1 >= var4) || (var1 >= var3) || (var4 >= var3))
+w = i / 100;
+x = i / 10;
+y = i % 10;
+z = b % 10;
+if ((w >= z) || (x >= y) || (z >= y))
 {
 i++;
 continue;
 }
-putchar(var1 + '0');
-putchar(var2 + '0');
-putchar(var3 + '0');
+putchar(w + '0');
+putchar(z + '0');
+putchar(y + '0');
 if (i != 789)
 {
 putchar(',');
