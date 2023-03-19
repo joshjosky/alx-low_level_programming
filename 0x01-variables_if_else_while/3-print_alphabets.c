@@ -1,26 +1,23 @@
 #include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
 /**
- * main - entry point for functions
+ * main - assign a random number to int n everytime
  * description: prints the alphabet in lowercase, and then in uppercase
  * Return: 0 always (success)
  */
 int main(void)
 {
-char x, X;
-x = 'a';
-X = 'A';
+char c, C;
+c = 'a';
+C = 'A';
+while (c <= 'z')
 {
-while (x <= 'z')
-{
-putchar(x);
-x++;
+putchar(c);
+c++;
 }
-while (X <= 'Z')
+while (C <= 'Z')
 {
-putchar(X);
-X++;
+putchar(C);
+C++;
 }
 putchar('\n');
 return (0);
