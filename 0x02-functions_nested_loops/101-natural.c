@@ -7,26 +7,27 @@
 
 int main(void)
 {
-	unsigned long int var3, var2, var1;
+	unsigned long int sum3, sum5, sum;
 	int n;
 
-	var3 = 0;
-	var2 = 0;
-	var1 = 0;
+	sum3 = 0;
+	sum5 = 0;
+	sum = 0;
 
 	for (n = 0; n < 1024; ++n)
 	{
 		if ((n % 3) == 0)
 		{
-			var3 = var3 + n;
+			sum3 = sum3 + n;
 		}
 		else if ((n % 5) == 0)
 		{
-			var1 = var1 + n;
+			sum5 = sum5 + n;
 		}
 	}
-	var1 = var3 + var2;
-	printf("%lu\n", var1);
+	sum = sum3 + sum5;
+	printf("%lu\n", sum);
 	return (0);
 }
+
 
