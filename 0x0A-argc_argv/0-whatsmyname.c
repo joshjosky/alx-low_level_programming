@@ -3,7 +3,7 @@
 /**
  * main - entry point of the codes
  * @argc: argument count
- * @*argv[]: a variable that holds the arrays of strings
+ * @argv: a variable that holds the arrays of strings
  * Return: 0 Always (success)
  */
 
